@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+.bg-jumbotron {
+  /* background-image: url('/images/julian-hochgesang-gSnyL1T935o-unsplash.jpg'); */
+  background-image: url('../../public/images/julian-hochgesang-gSnyL1T935o-unsplash.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-item-jumbotron {
+  background-color: rgba(0, 0, 0, 0.75);
+}
